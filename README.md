@@ -2,7 +2,7 @@
 [![GitHub release](https://flat.badgen.net/github/release/MrAfitol/NewDoors)](https://github.com/MrAfitol/NewDoors/releases/)
 ![GitHub downloads](https://flat.badgen.net/github/assets-dl/MrAfitol/NewDoors)
 
-This Plugin added new doors
+Plugin added new doors
 
 ## How download ?
   *1. Find the SCP SL server config folder*
