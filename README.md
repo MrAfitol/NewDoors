@@ -5,13 +5,18 @@
 Plugin added new doors
 
 ## How download ?
-  *1. Find the SCP SL server config folder*
+   - *1. Find the SCP SL server config folder*
+   
+   *("C:\Users\(user name)\AppData\Roaming\SCP Secret Laboratory\" for windows, "/home/(user name)/.config/SCP Secret Laboratory/" for linux)*
   
-  *("C:\Users\(user name)\AppData\Roaming\SCP Secret Laboratory\" for windows, "/home/(user name)/.config/SCP Secret Laboratory/" for linux)*
+   - *2. Find the "PluginAPI" folder there, it contains the "plugins" folder.*
   
-  *2. Find the "PluginAPI" folder there, it contains the "plugins" folder.*
+   - *3. Select either the port of your server to install the same on that server or the "global" folder to install the plugin for all servers*
   
-  *3. Select either the port of your server to install the same on that server or the "global" folder to install the plugin for all servers*
+  ***Or***
+  
+   - *Run the command in console `p install MrAfitol/NewDoors`*
+   
 ## View
 **Door 1**
 ![Screenshot 2022-12-17 00-00-28](https://user-images.githubusercontent.com/76150070/208197055-21068e77-3a47-42a1-8e0f-fd6c2ff609ff.png)
