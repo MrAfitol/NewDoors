@@ -13,7 +13,7 @@
         public Config Config;
 
         [PluginPriority(LoadPriority.Highest)]
-        [PluginEntryPoint("NewDoors", "1.0.3", "Plugin added new doors.", "MrAfitol")]
+        [PluginEntryPoint("NewDoors", "1.0.4", "Plugin added new doors.", "MrAfitol")]
         void LoadPlugin()
         {
             Instance = this;

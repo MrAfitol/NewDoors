@@ -14,6 +14,7 @@
         [PluginEvent(ServerEventType.RoundStart)]
         public void OnRoundStarted()
         {
+            spawnedDoors.Clear();
             SpawnDoors();
         }
 
@@ -52,10 +53,7 @@
             }
 
             var door = UnityEngine.Object.Instantiate(prefab.TargetPrefab, position, Quaternion.Euler(rotation));
-
-
             door.transform.localScale = scale;
-
 
             spawnedDoors.Add(door.gameObject);
             NetworkServer.Spawn(door.gameObject);
