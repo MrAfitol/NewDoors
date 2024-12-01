@@ -1,10 +1,10 @@
-﻿namespace NewDoors
-{
-    using PluginAPI.Core.Attributes;
-    using PluginAPI.Core;
-    using PluginAPI.Enums;
-    using PluginAPI.Events;
+﻿using PluginAPI.Core.Attributes;
+using PluginAPI.Core;
+using PluginAPI.Enums;
+using PluginAPI.Events;
 
+namespace NewDoors
+{
     public class NewDoors
     {
         public static NewDoors Instance { get; private set; }
@@ -13,7 +13,7 @@
         public Config Config;
 
         [PluginPriority(LoadPriority.Highest)]
-        [PluginEntryPoint("NewDoors", "1.0.4", "Plugin added new doors.", "MrAfitol")]
+        [PluginEntryPoint("NewDoors", "1.1.0", "Plugin added new doors.", "MrAfitol")]
         void LoadPlugin()
         {
             Instance = this;
